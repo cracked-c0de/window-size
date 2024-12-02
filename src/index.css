@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    backdrop-filter: blur(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    background-color: #89898989;
+    padding: 15px;
+    border: solid 1px #000;
+    border-radius: 15px;
+    font-size: 3em;
+    box-shadow: 3px 3px 6px #000;
+}
